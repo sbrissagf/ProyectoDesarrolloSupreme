@@ -1,0 +1,52 @@
+.footerClass {
+    background-image: linear-gradient(to left, #e6dada, #274046);
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    border: 3px solid black;
+    margin-bottom: 2px;
+}
+
+.footerClass li {
+    display: block;
+}
+
+.footerUl {
+    width: 70%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.footerUl li {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    width: 20%;
+}
+
+.footerUl li a {
+    text-decoration: none;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+.footerClass li:hover {
+    background-color: black;
+    padding: 30px;
+    border-radius: 30px;
+    text-align: center;
+    transition: ease-in-out 0.5s;
+}
+
+i {
+    padding-right: 10px;
+}

@@ -1,0 +1,61 @@
+.videoAbout {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.videoCont {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    flex-wrap: wrap;
+}
+
+.moveColab {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.aboutInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ed1c24;
+    border-radius: 20px;
+    margin: 70px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-family: ‘Georama’, sans-serif;
+    color: white;
+    height: 70px;
+    width: 245px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.grid-container>div {
+    background-image: linear-gradient(to left, #e6dada, #274046);
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    border: 1px solid black;
+}
+
+.grid-1,
+.grid-2,
+.grid-3,
+.grid-4 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}

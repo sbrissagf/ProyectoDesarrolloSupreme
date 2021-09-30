@@ -1,0 +1,28 @@
+  /*Escritorio*/
+  
+  @media (min-width: 1200px) {
+      body {
+          background-image: linear-gradient(to left, #bdc3c7, #2c3e50);
+      }
+  }
+  /*Landscape*/
+  
+  @media (min-width: 992px) and (max-width: 1200px)and (orientation:landscape) {
+      body {
+          background-image: linear-gradient(to left, #bdc3c7, #2c3e50);
+      }
+  }
+  /*Tablet*/
+  
+  @media (min-width: 576px) and (max-width: 992px) {
+      body {
+          background-image: linear-gradient(to right, #bdc3c7, #2c3e50);
+      }
+  }
+  /*Móvil*/
+  
+  @media (min-width: 576px) and (orientation:portrait) {
+      body {
+          background-image: linear-gradient(to right, #bdc3c7, #2c3e50);
+      }
+  }

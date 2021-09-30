@@ -1,0 +1,59 @@
+.imgLogo {
+    display: flex;
+    margin: auto;
+    width: 270px;
+    margin-bottom: 35px;
+}
+
+.infoStores {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.imgStores {
+    display: flex;
+    height: 350px;
+    width: 400px;
+    margin: 7px;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding: 10px;
+}
+
+.grid-container2>div {
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.imgProduct {
+    border: 1px solid;
+    margin-bottom: 40px;
+    height: 500px;
+    width: 450px;
+}
+
+.imgHype {
+    margin-bottom: 40px;
+    height: 500px;
+    width: 700px;
+    margin: 7px;
+}
+
+.carousel {
+    width: 50%;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
