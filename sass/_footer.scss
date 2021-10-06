@@ -1,14 +1,14 @@
 .footerClass {
     background-image: linear-gradient(to left, #e6dada, #274046);
     width: 100%;
-    height: 100px;
+    height: 6em;
     background-size: cover;
     display: flex;
     justify-content: center;
-    font-size: 16px;
+    font-size: 0.8em;
     font-weight: bold;
     border: 3px solid black;
-    margin-bottom: 2px;
+    margin-bottom: 0em;
 }
 
 .footerClass li {
@@ -21,7 +21,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 40px;
+    padding-top: 2.5rem;
 }
 
 .footerUl li {
@@ -41,13 +41,31 @@
 
 .footerClass li:hover {
     background-color: black;
-    padding: 30px;
-    border-radius: 30px;
+    padding: 1.5rem;
+    border-radius: 3em;
     text-align: center;
     transition: ease-in-out 0.1s;
 }
 
 i {
-    padding-right: 10px;
+    margin-bottom: 0.3em;
+    padding-right: 0em;
     font-size: xx-large;
+}
+
+.hovicon.effect-1.sub-a:hover {
+    background: rgba(255, 255, 255, 1);
+    color: #41ab6b;
+}
+
+.hovicon.effect-1.sub-a:hover i {
+    color: #41ab6b;
+}
+
+.hovicon.effect-1.sub-a:hover:after {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
 }

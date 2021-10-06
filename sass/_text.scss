@@ -3,9 +3,10 @@
 }
 
 .text {
-    margin: 15px;
-    padding-bottom: 25px;
-    font-size: 16px;
+    margin: 1.5rem;
+    margin-bottom: 50em;
+    padding-bottom: 2.5em;
+    font-size: 1rem;
     background-image: linear-gradient(to right, #F4EEEE, #F4EEEE, #FAD7AF);
     border: 1px solid black;
     text-align: center;
@@ -17,11 +18,11 @@
 }
 
 .textIndex {
-    margin: 10px;
-    padding-bottom: 15px;
-    font-size: 16px;
+    margin: 1em;
+    padding-bottom: 1.5em;
+    font-size: 1em;
     color: black;
-    margin-bottom: 25px;
+    margin-bottom: 2.4em;
     background-image: linear-gradient(to right, #F4EEEE, #F4EEEE, #D3CFCF);
     border: 1px solid black;
     text-align: center;
@@ -29,8 +30,6 @@
 
 p {
     color: black;
-    font-weight: bold;
-    font-size: 20px;
 }
 
 .infoProd {
@@ -41,8 +40,8 @@ p {
 .infoContProd {
     display: flex;
     justify-content: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 1.9em;
+    padding-right: 1.9em;
     flex-wrap: wrap;
 }
 
@@ -58,8 +57,8 @@ p {
 }
 
 .textProduct {
-    margin-bottom: 100px;
-    font-size: 16px;
+    margin-bottom: 10em;
+    font-size: 1em;
     color: black;
     background-image: linear-gradient(to right, #F4EEEE, #F4EEEE, #D3CFCF);
     border: 1px solid black;
@@ -70,7 +69,7 @@ p {
     background-image: linear-gradient(to right, #F4EEEE, #F4EEEE, #D3CFCF);
     border: 1px solid black;
     text-align: center;
-    font-size: 16px;
+    font-size: 1em;
 }
 
 .textSupportDiv {
@@ -78,15 +77,15 @@ p {
 }
 
 #idText {
-    margin-bottom: 150px;
+    margin-bottom: 50em;
     background-image: linear-gradient(to right, #F4EEEE, #F4EEEE, #D3CFCF);
     border: 1px solid black;
     text-align: center;
-    font-size: 16px;
+    font-size: 1em;
 }
 
 .copyrights {
-    font-size: 14px;
+    font-size: 0.9em;
     width: 90%;
 }
 

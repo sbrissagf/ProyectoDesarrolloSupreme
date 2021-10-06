@@ -8,14 +8,14 @@
 .footerClass {
   background-image: linear-gradient(to left, #e6dada, #274046);
   width: 100%;
-  height: 100px;
+  height: 6em;
   background-size: cover;
   display: flex;
   justify-content: center;
-  font-size: 16px;
+  font-size: 0.8em;
   font-weight: bold;
   border: 3px solid black;
-  margin-bottom: 2px;
+  margin-bottom: 0em;
 }
 
 .footerClass li {
@@ -28,7 +28,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 40px;
+  padding-top: 2.5rem;
 }
 
 .footerUl li {
@@ -48,15 +48,33 @@
 
 .footerClass li:hover {
   background-color: black;
-  padding: 30px;
-  border-radius: 30px;
+  padding: 1.5rem;
+  border-radius: 3em;
   text-align: center;
   transition: ease-in-out 0.1s;
 }
 
 i {
-  padding-right: 10px;
+  margin-bottom: 0.3em;
+  padding-right: 0em;
   font-size: xx-large;
+}
+
+.hovicon.effect-1.sub-a:hover {
+  background: white;
+  color: #41ab6b;
+}
+
+.hovicon.effect-1.sub-a:hover i {
+  color: #41ab6b;
+}
+
+.hovicon.effect-1.sub-a:hover:after {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
 }
 
 .imgLogo {
@@ -68,34 +86,50 @@ i {
 
 .imgStores {
   display: flex;
-  height: 90%;
-  width: 50%;
-  margin-bottom: 50px;
+  height: 80%;
+  width: 100%;
+  margin-bottom: 5em;
+}
+
+.boxImgNy {
+  grid-area: myArea;
+}
+
+.boxImgFu {
+  grid-area: myArea2;
+}
+
+.boxImgMi {
+  grid-area: myArea3;
 }
 
 .grid-container2 {
   display: grid;
-  grid-template-columns: auto auto auto;
-  /* grid-template-rows: auto;
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
-  padding: 10px; */
+  grid-template-areas: "myArea myArea2 myArea3";
 }
 
-.grid-container2 > div {
-  text-align: center;
-  padding: 30px;
-  font-size: 30px;
+/* .grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding: 10px;
 }
 
+.grid-container2>div {
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+} */
 .imgProduct {
   border: 1px solid;
-  margin-bottom: 40px;
+  margin-bottom: 4em;
   width: 50%;
 }
 
 .carousel {
-  width: 45%;
+  width: 60%;
   justify-content: center;
 }
 
@@ -108,7 +142,8 @@ i {
 .imgHype {
   margin-bottom: 40px;
   width: 100%;
-  margin: 7px;
+  margin: 1em;
+  aspect-ratio: 1/1;
 }
 
 .animate__animated1 {
@@ -166,9 +201,10 @@ i {
 }
 
 .text {
-  margin: 15px;
-  padding-bottom: 25px;
-  font-size: 16px;
+  margin: 1.5rem;
+  margin-bottom: 50em;
+  padding-bottom: 2.5em;
+  font-size: 1rem;
   background-image: linear-gradient(to right, #F4EEEE, #F4EEEE, #FAD7AF);
   border: 1px solid black;
   text-align: center;
@@ -180,11 +216,11 @@ i {
 }
 
 .textIndex {
-  margin: 10px;
-  padding-bottom: 15px;
-  font-size: 16px;
+  margin: 1em;
+  padding-bottom: 1.5em;
+  font-size: 1em;
   color: black;
-  margin-bottom: 25px;
+  margin-bottom: 2.4em;
   background-image: linear-gradient(to right, #F4EEEE, #F4EEEE, #D3CFCF);
   border: 1px solid black;
   text-align: center;
@@ -192,8 +228,6 @@ i {
 
 p {
   color: black;
-  font-weight: bold;
-  font-size: 20px;
 }
 
 .infoProd {
@@ -204,8 +238,8 @@ p {
 .infoContProd {
   display: flex;
   justify-content: center;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 1.9em;
+  padding-right: 1.9em;
   flex-wrap: wrap;
 }
 
@@ -221,8 +255,8 @@ p {
 }
 
 .textProduct {
-  margin-bottom: 100px;
-  font-size: 16px;
+  margin-bottom: 10em;
+  font-size: 1em;
   color: black;
   background-image: linear-gradient(to right, #F4EEEE, #F4EEEE, #D3CFCF);
   border: 1px solid black;
@@ -233,7 +267,7 @@ p {
   background-image: linear-gradient(to right, #F4EEEE, #F4EEEE, #D3CFCF);
   border: 1px solid black;
   text-align: center;
-  font-size: 16px;
+  font-size: 1em;
 }
 
 .textSupportDiv {
@@ -241,15 +275,15 @@ p {
 }
 
 #idText {
-  margin-bottom: 150px;
+  margin-bottom: 50em;
   background-image: linear-gradient(to right, #F4EEEE, #F4EEEE, #D3CFCF);
   border: 1px solid black;
   text-align: center;
-  font-size: 16px;
+  font-size: 1em;
 }
 
 .copyrights {
-  font-size: 14px;
+  font-size: 0.9em;
   width: 90%;
 }
 
@@ -260,83 +294,61 @@ p {
 
 .title {
   color: black solid;
-  font-size: 15px;
-  margin-bottom: 18px;
+  font-size: 1em;
+  margin-bottom: 1em;
   text-align: center;
 }
 
 .h1Title {
-  margin-bottom: 15px;
+  margin-bottom: 0.9em;
 }
 
 h3 {
   flex-direction: column;
   background-color: #ed1c24;
-  border-radius: 20px;
-  margin: 10px;
-  font-size: 40px;
+  border-radius: 2px;
+  margin: 1em;
+  font-size: 2.2em;
   font-family: ‘Georama’, sans-serif;
   color: white;
+  text-align: center;
 }
 
 .h1Contact {
-  font-size: 40px;
+  font-size: 2.2em;
   color: white;
   background-color: #ed1c24;
-  margin-bottom: 20px;
-  border-radius: 20px;
+  margin-bottom: 1em;
+  border-radius: 2px;
   text-align: center;
 }
 
 .h1Hype {
-  font-size: 40px;
+  font-size: 2.2em;
   color: white;
   background-color: #ed1c24;
-  margin-bottom: 20px;
-  border-radius: 20px;
+  margin-bottom: 1em;
+  border-radius: 2px;
   text-align: center;
 }
 
 .h1Product {
-  font-size: 40px;
+  font-size: 2.2em;
   color: white;
   background-color: #ed1c24;
-  margin-bottom: 20px;
-  border-radius: 20px;
+  margin-bottom: 1em;
+  border-radius: 2px;
   display: flex;
   justify-content: center;
 }
 
 .h1About {
-  font-size: 40px;
+  font-size: 2.2em;
   color: white;
   background-color: #ed1c24;
-  border-radius: 20px;
+  border-radius: 2px;
   text-align: center;
-  margin-bottom: 60px;
-}
-
-.h1Support {
-  font-size: 40px;
-  color: white;
-  background-color: #ed1c24;
-  margin-bottom: 100px;
-  border-radius: 20px;
-  text-align: center;
-}
-
-.videoAbout {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  display: flex;
-  justify-content: center;
-}
-
-.videoCont {
-  display: flex;
-  padding-left: 100px;
-  padding-right: 100px;
-  flex-wrap: wrap;
+  margin-bottom: 1.8em;
 }
 
 .moveColab {
@@ -351,14 +363,30 @@ h3 {
   align-items: center;
   flex-direction: column;
   background-color: #ed1c24;
-  border-radius: 20px;
-  margin: 70px;
-  margin-bottom: 10px;
-  font-size: 35px;
+  border-radius: 2px;
+  margin: 0.8em;
+  margin-bottom: 2em;
+  font-size: 2.2em;
   font-family: ‘Georama’, sans-serif;
   color: white;
-  height: 70px;
-  width: 245px;
+  height: 30%;
+  width: 100%;
+}
+
+.h1Support {
+  font-size: 2.2em;
+  color: white;
+  background-color: #ed1c24;
+  margin-bottom: 1em;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.videoCont {
+  display: flex;
+  padding-left: 1em;
+  padding-right: 1em;
+  flex-wrap: wrap;
 }
 
 .grid-container {
@@ -369,26 +397,17 @@ h3 {
   grid-row-gap: 10px;
   justify-content: center;
   padding: 10px;
-}
-
-.grid-container > div {
-  background-image: linear-gradient(to right, #e6dada, #274046);
-  text-align: center;
-  padding: 30px;
-  font-size: 30px;
-  border: 1px solid black;
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
 form {
-  margin-bottom: 250px;
-  font-size: 10px;
-  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15em;
+  font-size: 1em;
+  margin-left: 0.5em;
   border: 1px solid black;
-}
-
-.form1 {
-  background-color: lawngreen;
-  align-content: center;
 }
 
 .dropdown-menu > li a:hover {
@@ -402,9 +421,9 @@ ul {
 }
 
 header {
-  height: 150px;
+  height: 5em;
   width: 100%;
-  margin-top: 5px;
+  margin-top: 0.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;

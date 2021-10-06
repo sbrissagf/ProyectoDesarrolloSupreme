@@ -1,11 +1,8 @@
 form {
-    margin-bottom: 250px;
-    font-size: 10px;
-    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15em;
+    font-size: 1em;
+    margin-left: 0.5em;
     border: 1px solid black;
-}
-
-.form1 {
-    background-color: lawngreen;
-    align-content: center;
 }

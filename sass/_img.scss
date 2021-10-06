@@ -7,34 +7,52 @@
 
 .imgStores {
     display: flex;
-    height: 90%;
-    width: 50%;
-    margin-bottom: 50px;
+    height: 80%;
+    width: 100%;
+    margin-bottom: 5em;
+}
+
+.boxImgNy {
+    grid-area: myArea;
+}
+
+.boxImgFu {
+    grid-area: myArea2;
+}
+
+.boxImgMi {
+    grid-area: myArea3;
 }
 
 .grid-container2 {
     display: grid;
+    grid-template-areas: 'myArea myArea2 myArea3';
+}
+
+
+/* .grid-container2 {
+    display: grid;
     grid-template-columns: auto auto auto;
-    /* grid-template-rows: auto;
+    grid-template-rows: auto;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
-    padding: 10px; */
+    padding: 10px;
 }
 
 .grid-container2>div {
     text-align: center;
     padding: 30px;
     font-size: 30px;
-}
+} */
 
 .imgProduct {
     border: 1px solid;
-    margin-bottom: 40px;
+    margin-bottom: 4em;
     width: 50%
 }
 
 .carousel {
-    width: 45%;
+    width: 60%;
     justify-content: center;
 }
 
@@ -47,7 +65,8 @@
 .imgHype {
     margin-bottom: 40px;
     width: 100%;
-    margin: 7px;
+    margin: 1em;
+    aspect-ratio: 1 / 1;
 }
 
 .animate__animated1 {
