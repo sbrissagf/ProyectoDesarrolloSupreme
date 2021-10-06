@@ -45,17 +45,9 @@
 }
 
 .grid-container>div {
-    background-image: linear-gradient(to left, #e6dada, #274046);
+    background-image: linear-gradient(to right, #e6dada, #274046);
     text-align: center;
     padding: 30px;
     font-size: 30px;
     border: 1px solid black;
-}
-
-.grid-1,
-.grid-2,
-.grid-3,
-.grid-4 {
-    grid-column-start: 1;
-    grid-column-end: 2;
 }
