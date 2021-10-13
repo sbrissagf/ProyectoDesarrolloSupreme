@@ -59,10 +59,6 @@ p {
 
 #idText {
     margin-bottom: 50em;
-    background-image: linear-gradient(to right, #F4EEEE, #F4EEEE, #FAD7AF);
-    border: 1px solid black;
-    text-align: center;
-    font-size: 1.1em;
 }
 
 .copyrights {
@@ -84,10 +80,42 @@ p {
     color: white;
 }
 
-label {
+input {
+    width: 100vw;
+}
+
+.support-text {
+    font-size: 1.6em;
+    color: white;
+    padding: 2em;
+    top: 10em;
+}
+
+.support-text-title {
+    font-size: 2.5em;
+    color: white;
+    left: 10%;
+    bottom: -55%;
+    top: 130%;
+    color: black;
+}
+
+.support-link {
     color: white;
 }
 
-input {
-    width: 100vw;
+.support-link:hover {
+    color: #ed1c24;
+}
+
+.eco-section {
+    margin-top: -0.5em;
+    background-color: black;
+    margin-left: 7em;
+    margin-right: 7em;
+}
+
+.pwhite {
+    font-size: 1em;
+    color: white;
 }

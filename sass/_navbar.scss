@@ -12,3 +12,13 @@
     .dropdown-item {
         color: white;
     }
+    
+    #dinamicnav {
+        width: 100vw;
+    }
+    
+    #navbarNavDropdown {
+        display: flex;
+        justify-content: flex-end;
+        width: 100vw;
+    }

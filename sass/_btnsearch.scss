@@ -1,0 +1,36 @@
+.container-search {
+    position: absolute;
+    top: 20%;
+    margin-bottom: 50em;
+}
+
+.search-support {
+    outline: none;
+    box-sizing: border-box;
+    height: 3.5em;
+    width: 100vw;
+    border-radius: 15em;
+    font-size: 1.2em;
+    border: 1px solid black;
+    text-align: center;
+}
+
+::placeholder {
+    color: grey;
+}
+
+.btn-btn {
+    position: absolute;
+    width: 5em;
+    right: 0em;
+    bottom: -2.3em;
+    line-height: 8.3em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-btn i {
+    font-size: 1.4em;
+    color: grey;
+    align-content: center;
+}

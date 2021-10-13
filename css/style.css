@@ -41,7 +41,7 @@
 
 .footerUl li a:hover {
   background-color: black;
-  border-radius: 10px;
+  border-radius: 2em;
   text-decoration: none;
   color: white;
   display: flex;
@@ -75,8 +75,7 @@ i {
 .imgLogo {
   display: flex;
   margin: auto;
-  width: 270px;
-  margin-bottom: 35px;
+  width: 30%;
 }
 
 .grid-container {
@@ -108,7 +107,6 @@ i {
 }
 
 .imgHype {
-  margin-bottom: 40px;
   width: 100%;
   margin: 1em;
   aspect-ratio: 1/1;
@@ -132,7 +130,7 @@ i {
   background-size: cover;
   background-position: center;
   width: 100vw;
-  height: 25em;
+  height: 35em;
 }
 
 .banner2 {
@@ -141,6 +139,39 @@ i {
   background-size: cover;
   background-position: center;
   width: 100vw;
+  height: 35em;
+}
+
+.banner3 {
+  background-image: url("https://images.unsplash.com/photo-1558452919-08ae4aea8e29?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=688&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 35em;
+}
+
+.support-text-title {
+  position: absolute;
+  bottom: 5%;
+}
+
+.support-text {
+  top: 20em;
+  background-color: black;
+}
+
+.container-support {
+  display: flex;
+  flex-direction: column;
+}
+
+.imgCarousel {
+  margin-bottom: 8em;
+  width: 50vw;
+  margin-left: 25%;
+  align-content: center;
+  aspect-ratio: 1/1;
 }
 
 /*Escritorio*/
@@ -228,10 +259,6 @@ p {
 
 #idText {
   margin-bottom: 50em;
-  background-image: linear-gradient(to right, #F4EEEE, #F4EEEE, #FAD7AF);
-  border: 1px solid black;
-  text-align: center;
-  font-size: 1.1em;
 }
 
 .copyrights {
@@ -252,12 +279,44 @@ p {
   color: white;
 }
 
-label {
+input {
+  width: 100vw;
+}
+
+.support-text {
+  font-size: 1.6em;
+  color: white;
+  padding: 2em;
+  top: 10em;
+}
+
+.support-text-title {
+  font-size: 2.5em;
+  color: white;
+  left: 10%;
+  bottom: -55%;
+  top: 130%;
+  color: black;
+}
+
+.support-link {
   color: white;
 }
 
-input {
-  width: 100vw;
+.support-link:hover {
+  color: #ed1c24;
+}
+
+.eco-section {
+  margin-top: -0.5em;
+  background-color: black;
+  margin-left: 7em;
+  margin-right: 7em;
+}
+
+.pwhite {
+  font-size: 1em;
+  color: white;
 }
 
 .title {
@@ -333,10 +392,16 @@ h3 {
 
 h5 {
   background-color: #ed1c24;
+  margin-left: 3.2em;
+  margin-right: 3.2em;
   font-size: 2.2em;
   font-family: ‘Georama’, sans-serif;
   color: white;
   text-align: center;
+}
+
+.eco-title {
+  margin-top: 5em;
 }
 
 .flex-container-cont {
@@ -368,6 +433,10 @@ form {
   width: 100vw;
 }
 
+label {
+  color: white;
+}
+
 .dropdown-menu {
   color: white;
   background-color: #ed1c24;
@@ -381,6 +450,16 @@ form {
 
 .dropdown-item {
   color: white;
+}
+
+#dinamicnav {
+  width: 100vw;
+}
+
+#navbarNavDropdown {
+  display: flex;
+  justify-content: flex-end;
+  width: 100vw;
 }
 
 .locationNy {
@@ -442,11 +521,48 @@ form {
 }
 
 .card-title {
-  font-size: 1.7em;
+  font-size: 1.6em;
 }
 
 #card-text-text {
   font-size: 1.1em;
+}
+
+.container-search {
+  position: absolute;
+  top: 20%;
+  margin-bottom: 50em;
+}
+
+.search-support {
+  outline: none;
+  box-sizing: border-box;
+  height: 3.5em;
+  width: 100vw;
+  border-radius: 15em;
+  font-size: 1.2em;
+  border: 1px solid black;
+  text-align: center;
+}
+
+::placeholder {
+  color: grey;
+}
+
+.btn-btn {
+  position: absolute;
+  width: 5em;
+  right: 0em;
+  bottom: -2.3em;
+  line-height: 8.3em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-btn i {
+  font-size: 1.4em;
+  color: grey;
+  align-content: center;
 }
 
 ul {
