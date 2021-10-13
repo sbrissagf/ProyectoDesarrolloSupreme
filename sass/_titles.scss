@@ -10,42 +10,44 @@
 }
 
 h3 {
-    flex-direction: column;
     background-color: #ed1c24;
-    border-radius: 2px;
-    margin: 1em;
     font-size: 2.2em;
     font-family: ‘Georama’, sans-serif;
     color: white;
     text-align: center;
+    width: 100vw;
+    margin-bottom: 0.8em;
+    margin-top: 2em;
 }
 
 .h1Contact {
     font-size: 2.2em;
     color: white;
     background-color: #ed1c24;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
     border-radius: 2px;
     text-align: center;
+    width: 100vw;
 }
 
 .h1Hype {
     font-size: 2.2em;
     color: white;
     background-color: #ed1c24;
-    margin-bottom: 1em;
     border-radius: 2px;
     text-align: center;
+    width: 100vw;
 }
 
 .h1Product {
     font-size: 2.2em;
     color: white;
     background-color: #ed1c24;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
     border-radius: 2px;
     display: flex;
     justify-content: center;
+    width: 100vw;
 }
 
 .h1About {
@@ -54,29 +56,8 @@ h3 {
     background-color: #ed1c24;
     border-radius: 2px;
     text-align: center;
-    margin-bottom: 1.8em;
-}
-
-.moveColab {
-    display: flex;
-    justify-content: center;
-    align-self: center;
-}
-
-.aboutInfo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #ed1c24;
-    border-radius: 2px;
-    margin: 0.8em;
-    margin-bottom: 2em;
-    font-size: 2.2em;
-    font-family: ‘Georama’, sans-serif;
-    color: white;
-    height: 30%;
-    width: 100%;
+    margin-bottom: 0.5em;
+    width: 100vw;
 }
 
 .h1Support {
@@ -85,5 +66,13 @@ h3 {
     background-color: #ed1c24;
     margin-bottom: 1em;
     border-radius: 2px;
+    text-align: center;
+}
+
+h5 {
+    background-color: #ed1c24;
+    font-size: 2.2em;
+    font-family: ‘Georama’, sans-serif;
+    color: white;
     text-align: center;
 }

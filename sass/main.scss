@@ -12,6 +12,8 @@
 @import "video";
 @import "form";
 @import "navbar";
+@import "maps";
+@import "cards";
 ul {
     margin: 0;
     padding: 0;
@@ -27,6 +29,7 @@ header {
 }
 
 body {
-    background-image: linear-gradient(to right, #bdc3c7, #2c3e50);
+    background-color: #646569;
+    background-image: linear-gradient(313deg, #646569 0%, #646569 23%, #0d0c0c 100%);
     width: 99.5%;
 }

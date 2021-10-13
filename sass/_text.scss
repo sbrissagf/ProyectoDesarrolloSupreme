@@ -1,12 +1,10 @@
 .textDiv {
     display: flex;
+    width: 100vw;
 }
 
 .text {
-    margin: 1.5rem;
-    margin-bottom: 50em;
-    padding-bottom: 2.5em;
-    font-size: 1rem;
+    font-size: 1.1em;
     background-image: linear-gradient(to right, #F4EEEE, #F4EEEE, #FAD7AF);
     border: 1px solid black;
     text-align: center;
@@ -19,7 +17,6 @@
 
 .textIndex {
     margin: 1em;
-    padding-bottom: 1.5em;
     font-size: 1em;
     color: black;
     margin-bottom: 2.4em;
@@ -32,11 +29,6 @@ p {
     color: black;
 }
 
-.infoProd {
-    display: flex;
-    justify-content: center;
-}
-
 .infoContProd {
     display: flex;
     justify-content: center;
@@ -45,31 +37,20 @@ p {
     flex-wrap: wrap;
 }
 
-.boxContProd {
-    display: flex;
-    justify-content: center;
-}
-
-.textProdDiv {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 .textProduct {
-    margin-bottom: 10em;
+    margin-bottom: 5em;
     font-size: 1em;
     color: black;
-    background-image: linear-gradient(to right, #F4EEEE, #F4EEEE, #D3CFCF);
+    background-image: linear-gradient(to right, #F4EEEE, #F4EEEE, #FAD7AF);
     border: 1px solid black;
     text-align: center;
 }
 
 .textAbout {
-    background-image: linear-gradient(to right, #F4EEEE, #F4EEEE, #D3CFCF);
+    background-image: linear-gradient(to right, #F4EEEE, #F4EEEE, #FAD7AF);
     border: 1px solid black;
     text-align: center;
-    font-size: 1em;
+    font-size: 1.1em;
 }
 
 .textSupportDiv {
@@ -78,10 +59,10 @@ p {
 
 #idText {
     margin-bottom: 50em;
-    background-image: linear-gradient(to right, #F4EEEE, #F4EEEE, #D3CFCF);
+    background-image: linear-gradient(to right, #F4EEEE, #F4EEEE, #FAD7AF);
     border: 1px solid black;
     text-align: center;
-    font-size: 1em;
+    font-size: 1.1em;
 }
 
 .copyrights {
@@ -92,4 +73,21 @@ p {
 .copyright-link {
     text-decoration: none;
     color: white;
+}
+
+.copyright-link:hover {
+    color: #ed1c24;
+    ;
+}
+
+.card-text {
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+input {
+    width: 100vw;
 }

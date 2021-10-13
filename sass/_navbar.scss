@@ -1,4 +1,14 @@
-.dropdown-menu>li a:hover {
-    background-color: red;
-    color: white;
-}
+    .dropdown-menu {
+        color: white;
+        background-color: #ed1c24;
+        border-color: white;
+    }
+    
+    .dropdown-menu>li a:hover {
+        background: #ed1c24;
+        color: white;
+    }
+    
+    .dropdown-item {
+        color: white;
+    }

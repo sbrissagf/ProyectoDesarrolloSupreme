@@ -49,13 +49,13 @@
                             <a href="../pages/product.html " class="nav-link" href="#">Product</a>
                         </li>
                         <li class="nav-item">
-                            <a href="../pages/contact.html " class="nav-link active" aria-current="page" href="#">Contact</a>
-                        </li>
-                        <li class="nav-item">
                             <a href="../pages/hype.html " class="nav-link" href="#">Hype</a>
                         </li>
                         <li class="nav-item">
                             <a href="../pages/about.html " class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../pages/contact.html " class="nav-link active" aria-current="page" href="#">Contact</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -76,80 +76,125 @@
     <main>
 
         <h1 class="h1Contact">Contact</h1>
-
-        <form>
-            <fieldset>
-                <form class="row g-3">
-                    <div class="form1">
-                        <div class="col-md-4">
-                            <label for="validationDefault01" class="form-label">First name</label>
-                            <input type="text" class="form-control" id="validationDefault01" placeholder="Mark" required>
-                        </div>
-                        <div class="col-md-4">
-                            <label for="validationDefault02" class="form-label">Last name</label>
-                            <input type="text" class="form-control" id="validationDefault02" placeholder="Otto" required>
-                        </div>
-                        <div class="col-md-4">
-                            <label for="validationDefaultUsername" class="form-label">Username</label>
-                            <div class="input-group">
-                                <span class="input-group-text" id="inputGroupPrepend2">@</span>
-                                <input type="text" class="form-control" id="validationDefaultUsername" placeholder="mark.otto94" aria-describedby="inputGroupPrepend2" required>
+        <div class="divForm">
+            <form>
+                <fieldset>
+                    <form class="row g-3">
+                        <div class="form1">
+                            <div class="col-md-4">
+                                <label for="validationDefault01" class="form-label">First name</label>
+                                <input type="text" class="form-control" id="validationDefault01" placeholder="Mark" required>
                             </div>
-                        </div>
-                        <div class="col-md-3">
-                            <label for="validationDefault03" class="form-label">City</label>
-                            <input type="text" class="form-control" id="validationDefault03" required>
-                        </div>
-                        <div class="col-md-3">
-                            <label for="validationDefault04" class="form-label">State</label>
-                            <select class="form-select" id="validationDefault04" required>
+                            <div class="col-md-4">
+                                <label for="validationDefault02" class="form-label">Last name</label>
+                                <input type="text" class="form-control" id="validationDefault02" placeholder="Otto" required>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="validationDefaultUsername" class="form-label">Username</label>
+                                <div class="input-group">
+                                    <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                                    <input type="text" class="form-control" id="validationDefaultUsername" placeholder="mark.otto94" aria-describedby="inputGroupPrepend2" required>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="validationDefault03" class="form-label">City</label>
+                                <input type="text" class="form-control" id="validationDefault03" required>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="validationDefault04" class="form-label">State</label>
+                                <select class="form-select" id="validationDefault04" required>
                         <option selected disabled value="">Choose...</option>
-                        <option>Los Angeles, CA</option>
-                        <option>Miami, FL</option>
-                        <option>...</option>
-                        <option>...</option>
-                        <option>...</option>
-                        <option>...</option>
+                        <option>Alabama, AL</option>
+                        <option>Alaska, AK</option>
+                        <option>Arizona, AZ</option>
+                        <option>Arkansas, AR</option>
+                        <option>California, CA</option>
+                        <option>North Carolina, NC</option>
+                        <option>South Carolina, SC</option>
+                        <option>Colorado, CO</option>
+                        <option>Connecticut, CT</option>
+                        <option>North Dakota, ND</option>
+                        <option>South Dakota, SD</option>
+                        <option>Delaware, DE</option>
+                        <option>Florida, FL</option>
+                        <option>Georgia, GA</option>
+                        <option>Hawaii, HI</option>
+                        <option>Idaho, ID</option>
+                        <option>Illinois, IL</option>
+                        <option>Indiana, IN</option>
+                        <option>Iowa, IA</option>
+                        <option>Kansas, KS</option>
+                        <option>Kentucky, KY</option>
+                        <option>Louisiana, LA</option>
+                        <option>Maine, ME</option>
+                        <option>Maryland, MD</option>
+                        <option>Massachusetts, MA</option>
+                        <option>Michigan, MI</option>
+                        <option>Minnesota, MN</option>
+                        <option>Mississippi, MS</option>
+                        <option>Missouri, MO</option>
+                        <option>Montana, MT</option>
+                        <option>Nebraska, NE</option>
+                        <option>Nevada, NV</option>
+                        <option>New Jersey, NJ</option>
+                        <option>New York, NY</option>
+                        <option>New Hampshire, NH</option>
+                        <option>New Mexico, NM</option>
+                        <option>Ohio, OH</option>
+                        <option>Oklahoma, OK</option>
+                        <option>Oregon, OR</option>
+                        <option>Pennsylvania, PA</option>
+                        <option>Rhode Island, RI</option>
+                        <option>Tennessee, TN</option>
+                        <option>Texas, TX</option>
+                        <option>Utah, UT</option>
+                        <option>Vermont, VT</option>
+                        <option>Virginia, VA</option>
+                        <option>West Virginia, WV</option>
+                        <option>Washington, WA</option>
+                        <option>Wisconsin, WI</option>
+                        <option>Wyoming, WY</option>                     
                       </select>
-                        </div>
-                        <div class="col-md-3">
-                            <label for="validationDefault05" class="form-label">Zip</label>
-                            <input type="text" class="form-control" id="validationDefault05" required>
-                        </div>
-                        <div class="col-12">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                                <label class="form-check-label" for="invalidCheck2">
+                            </div>
+                            <div class="col-md-3">
+                                <label for="validationDefault05" class="form-label">Zip</label>
+                                <input type="text" class="form-control" id="validationDefault05" required>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                                    <label class="form-check-label" for="invalidCheck2">
                           Agree to terms and conditions
                         </label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary" type="submit">Submit form</button>
                             </div>
                         </div>
-                        <div class="col-12">
-                            <button class="btn btn-primary" type="submit">Submit form</button>
-                        </div>
-                    </div>
-                </form>
+                    </form>
+                </fieldset>
+            </form>
+        </div>
 
-            </fieldset>
-        </form>
-
-        <style>
-            .locationMilano {
-                display: flex;
-                justify-content: center;
-                margin-top: 5em;
-                margin-bottom: 10em;
-            }
-        </style>
-
+        <h3>Found our Stores on Maps</h3>
+        <div class="locationNy">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193547.4443686241!2d-74.03498553282878!3d40.7140798470431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598e814fa0db%3A0xb62b095e1c5b2d92!2sSupreme!5e0!3m2!1sen!2sar!4v1633497296471!5m2!1sen!2sar"
+                width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
         <div class="locationMilano">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11191.258668530729!2d9.1837418!3d45.4735372!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x40c9b981c5b8303e!2sSupreme!5e0!3m2!1sen!2sar!4v1633482331684!5m2!1sen!2sar" width="1200" height="450"
                 style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
+        <div class="locationFukuoka">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.693967382821!2d130.39441067961891!3d33.587294280829234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35419186859c95dd%3A0x8b3daff4312082e!2sSupreme!5e0!3m2!1sen!2sar!4v1633497175870!5m2!1sen!2sar"
+                width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
     </main>
 
     <!-- FOOTER -->
-    <div>
+    <div class="hovicon effect-1 sub-a">
         <footer class="footerClass">
             <ul class="footerUl">
                 <li>
@@ -162,8 +207,8 @@
                     <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
                 </li>
             </ul>
+        </footer>
     </div>
-    </footer>
     <br>
     <br>
     <br>

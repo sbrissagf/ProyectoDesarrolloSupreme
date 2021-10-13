@@ -9,6 +9,7 @@
     font-weight: bold;
     border: 3px solid black;
     margin-bottom: 0em;
+    width: 100vw;
 }
 
 .footerClass li {
@@ -17,30 +18,31 @@
 
 .footerUl {
     width: 70%;
-    height: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 2.5rem;
 }
 
 .footerUl li {
     display: flex;
-    justify-content: center;
     height: 100%;
     align-items: center;
     width: 20%;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.footerUl li a {
+.footerUl li a:hover {
+    background-color: black;
+    border-radius: 10px;
     text-decoration: none;
-    color: whitesmoke;
+    color: white;
     display: flex;
     justify-content: center;
 }
 
-.footerClass li:hover {
-    background-color: black;
+.footerClass li {
+    margin-right: 1rem;
     padding: 1.5rem;
     border-radius: 3em;
     text-align: center;
@@ -48,24 +50,17 @@
 }
 
 i {
-    margin-bottom: 0.3em;
-    padding-right: 0em;
+    display: flex;
+    margin-bottom: 0;
+    padding-right: 0;
     font-size: xx-large;
+    color: white
 }
 
 .hovicon.effect-1.sub-a:hover {
-    background: rgba(255, 255, 255, 1);
-    color: #41ab6b;
+    color: white;
 }
 
 .hovicon.effect-1.sub-a:hover i {
-    color: #41ab6b;
-}
-
-.hovicon.effect-1.sub-a:hover:after {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    opacity: 1;
+    color: white;
 }
