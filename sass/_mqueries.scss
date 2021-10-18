@@ -1,28 +1,40 @@
   /*Escritorio*/
   
   @media (min-width: 1200px) {
-      body {
-          background-image: linear-gradient(to left, #bdc3c7, #2c3e50);
+      .videodiv {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
       }
   }
   /*Landscape*/
   
-  @media (min-width: 992px) and (max-width: 1200px)and (orientation:landscape) {
-      body {
-          background-image: linear-gradient(to left, #bdc3c7, #2c3e50);
+  @media (min-width: 992px) and (max-width: 1200px) and (orientation: landscape) {
+      .videodiv {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
       }
   }
   /*Tablet*/
   
-  @media (min-width: 576px) and (max-width: 992px) {
-      body {
-          background-image: linear-gradient(to right, #bdc3c7, #2c3e50);
+  @media (min-width: 600px) and (max-width: 992px) {
+      .videodiv {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
       }
   }
   /*Móvil*/
   
-  @media (min-width: 576px) and (orientation:portrait) {
-      body {
-          background-image: linear-gradient(to right, #bdc3c7, #2c3e50);
+  @media (min-width: 576px) and (max-width: 600px) and (orientation: portrait) {
+      .videodiv {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
       }
   }

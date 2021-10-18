@@ -1,17 +1,44 @@
 form {
     display: flex;
     justify-content: center;
+    align-content: center;
     margin-bottom: 15em;
     font-size: 1em;
-    margin-left: 0.5em;
     border: 1px solid black;
     width: 100vw;
 }
 
 .form1 {
+    display: inline;
+    justify-content: center;
     width: 100vw;
 }
 
 label {
     color: white;
+    text-align: start;
+}
+
+.form-control,
+.form-label {
+    display: flex;
+    justify-content: start;
+    align-content: center;
+    width: 35vw;
+}
+
+#validationDefault04 {
+    width: 35vw;
+}
+
+#idbtn {
+    width: 35vw;
+}
+
+.input-group {
+    width: 35vw;
+}
+
+option {
+    text-align: center;
 }

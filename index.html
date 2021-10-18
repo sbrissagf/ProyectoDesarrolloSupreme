@@ -33,29 +33,29 @@
 
 </head>
 
-<!-- BARRA DE NAVEGACIÓN -->
+<!-- BARRA DE NAVEGACIÓN & BANNER -->
 
 <body>
-    <header>
+    <header class="header" id="banner">
         <nav class="navbar navbar-expand-lg navbar-light bg-light" id="dinamicnav">
             <div class="container-fluid">
-                <a class="navbar-brand active" aria-current="page" href="#"><img src="images/supremelogo.png " alt="supreme logo" width="80" height="25" class="d-inline-block align-text-top"></a>
+                <a class="navbar-brand active" aria-current="page" href="index.html"><img src="images/supremelogo.png " alt="supreme logo" width="80" height="25" class="d-inline-block align-text-top"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-              </button>
+            </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="pages/product.html " class="nav-link" href="#">Product</a>
+                            <a class="nav-link" href="pages/product.html " id="navlink1">Product</a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/hype.html " class="nav-link" href="#">Hype</a>
+                            <a class="nav-link" href="pages/hype.html " id="navlink2">Hype</a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/about.html " class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="pages/about.html " id="navlink3">About</a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/contact.html " class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="pages/contact.html " id="navlink4">Contact</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -63,7 +63,7 @@
                     </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <li>
-                                    <a href="pages/support.html " class="dropdown-item" href="#">Support</a>
+                                    <a class="dropdown-item" href="pages/support.html " id="navlink5">Support</a>
                                 </li>
                             </ul>
                         </li>
@@ -71,32 +71,20 @@
                 </div>
             </div>
         </nav>
-    </header>
-
-    <!-- TÍTULO / BANNER PRINCIPAL -->
-    <main>
-        <section class="banner ">
+        <main>
             <div class="title ">
                 <h1 class="h1Title ">We wanted to be known as</h1>
                 <div class="animate__animated1 animate__backInRight ">
                     <img class="imgLogo " src="images/supremelogo.png " alt="brand photo">
                 </div>
             </div>
+    </header>
 
-        </section>
-        <div class="textDiv ">
-            <p class="text">
-                Supreme is an American skateboarding lifestyle brand established in New York City in April 1994. The brand is targeted at the skateboarding and hip hop cultures, and youth culture in general. The brand produces clothes and accessories and also manufactures
-                skateboards. The red box logo with "Supreme" in white Futura Heavy Oblique is thought to be largely based on Barbara Kruger's art. Supreme releases new products through their retail locations around the world as well as their website on
-                Thursday mornings in Europe and America, and on Saturday mornings in Japan. The Supreme brand is popular in China, Japan, Europe and the US. Supreme is owned by VF Corporation.
-                <br></p>
-        </div>
-
-        <!-- STORES -->
-
+    <!-- STORES -->
+    <aside>
         <h3>Stores</h3>
         <div class="grid-container">
-            <div class="card text-center" style="width: 24rem;">
+            <div class="card text-center" id="card-group-one" style="width: 24rem; height: 28.5rem;">
                 <div class="card-body">
                     <h5 class="card-title">New York</h5>
                     <img class="imgstore" src="images/supremestorea.jpeg" alt="">
@@ -107,7 +95,7 @@
                 </div>
             </div>
 
-            <div class="card text-center" style="width: 24rem;">
+            <div class="card text-center" id="card-group-two" style="width: 24rem; height: 28.5rem;">
                 <div class="card-body">
                     <h5 class="card-title">Brooklyn</h5>
                     <img class="imgstore" src="images/supremestoreb.jpeg" alt="">
@@ -118,7 +106,7 @@
                 </div>
             </div>
 
-            <div class="card text-center" style="width: 24rem;">
+            <div class="card text-center" id="card-group-three" style="width: 24rem; height: 28.5rem;">
                 <div class="card-body">
                     <h5 class="card-title">San Francisco</h5>
                     <img class="imgstore" src="images/supremestorec.jpeg" alt="">
@@ -128,7 +116,7 @@
                     <a href="https://www.supremenewyork.com/stores" class="btn btn-primary">Discover</a>
                 </div>
             </div>
-            <div class="card text-center" style="width: 24rem;">
+            <div class="card text-center" id="card-group-four" style="width: 24rem; height: 28.5rem;">
                 <div class="card-body">
                     <h5 class="card-title">Los Angeles</h5>
                     <img class="imgstore" src="images/supremestored.jpeg" alt="">
@@ -139,7 +127,7 @@
                 </div>
             </div>
 
-            <div class="card text-center" style="width: 24rem;">
+            <div class="card text-center" style="width: 24rem; height: 28.5rem;">
                 <div class="card-body">
                     <h5 class="card-title">London</h5>
                     <img class="imgstore" src="images/supremestoree.jpeg" alt="">
@@ -150,7 +138,7 @@
                 </div>
             </div>
 
-            <div class="card text-center" style="width: 24rem;">
+            <div class="card text-center" style="width: 24rem; height: 28.5rem;">
                 <div class="card-body">
                     <h5 class="card-title">Paris</h5>
                     <img class="imgstore" src="images/supremestoref.jpeg" alt="">
@@ -160,7 +148,7 @@
                     <a href="https://www.supremenewyork.com/stores" class="btn btn-primary">Discover</a>
                 </div>
             </div>
-            <div class="card text-center" style="width: 24rem;">
+            <div class="card text-center" style="width: 24rem; height: 28.5rem;">
                 <div class="card-body">
                     <h5 class="card-title">Milan</h5>
                     <img class="imgstore" src="images/supremestoreg.jpeg" alt="">
@@ -171,7 +159,7 @@
                 </div>
             </div>
 
-            <div class="card text-center" style="width: 24rem;">
+            <div class="card text-center" style="width: 24rem; height: 28.5rem;">
                 <div class="card-body">
                     <h5 class="card-title">Japan</h5>
                     <img class="imgstore" src="images/supremestoreh.jpeg" alt="">
@@ -181,16 +169,25 @@
                 </div>
             </div>
         </div>
-
+    </aside>
     </main>
 
     <!-- SKATE TEAM -->
 
     <h3>Skate Team</h3>
+    <section>
+        <div class="textDiv ">
+            <p class="text">
+                Supreme is an American skateboarding lifestyle brand established in New York City in April 1994. The brand is targeted at the skateboarding and hip hop cultures, and youth culture in general. The brand produces clothes and accessories and also manufactures
+                skateboards. The red box logo with "Supreme" in white Futura Heavy Oblique is thought to be largely based on Barbara Kruger's art. Supreme releases new products through their retail locations around the world as well as their website on
+                Thursday mornings in Europe and America, and on Saturday mornings in Japan. The Supreme brand is popular in China, Japan, Europe and the US. Supreme is owned by VF Corporation.
+                <br></p>
+        </div>
+    </section>
     <div class="videodiv">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/qNP2OftHi3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/05gZufEpvG0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/6YdLa7ATxKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="450" height="315" src="https://www.youtube.com/embed/qNP2OftHi3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="450" height="315" src="https://www.youtube.com/embed/05gZufEpvG0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="450" height="315" src="https://www.youtube.com/embed/6YdLa7ATxKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
 

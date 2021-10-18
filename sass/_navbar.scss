@@ -14,11 +14,20 @@
     }
     
     #dinamicnav {
-        width: 100vw;
+        z-index: 3;
     }
     
-    #navbarNavDropdown {
-        display: flex;
-        justify-content: flex-end;
-        width: 100vw;
+    .header .navbar {
+        background-color: transparent !important;
+        font-size: large;
+    }
+    
+    #navlink1,
+    #navlink2,
+    #navlink3,
+    #navlink4,
+    #navlink5,
+    #navbarDropdownMenuLink {
+        color: white;
+        font-weight: bold;
     }

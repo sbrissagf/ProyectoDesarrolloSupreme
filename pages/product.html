@@ -32,119 +32,138 @@
 
 </head>
 
-<!-- BARRA DE NAVEGACIÓN -->
+<!-- BARRA DE NAVEGACIÓN & BANNER -->
 
 <body>
-    <header>
+    <header class="header" id="banner">
         <nav class="navbar navbar-expand-lg navbar-light bg-light" id="dinamicnav">
             <div class="container-fluid">
-                <a href="../index.html " class="navbar-brand" href="#"><img src="../images/supremelogo.png " alt="" width="80" height="25" class="d-inline-block align-text-top"></a>
+                <a class="navbar-brand" href="../index.html "><img src="../images/supremelogo.png " alt="" width="80" height="25" class="d-inline-block align-text-top"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="../pages/product.html " class="nav-link active" aria-current="page" href="#">Product</a>
+                            <a class="nav-link active" aria-current="page" href="../pages/product.html " id="navlink1">Product</a>
                         </li>
                         <li class="nav-item">
-                            <a href="../pages/hype.html " class="nav-link" href="#">Hype</a>
+                            <a class="nav-link" href="../pages/hype.html " id="navlink2">Hype</a>
                         </li>
                         <li class="nav-item">
-                            <a href="../pages/about.html " class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="../pages/about.html " id="navlink3">About</a>
                         </li>
                         <li class="nav-item">
-                            <a href="../pages/contact.html " class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="../pages/contact.html " id="navlink4">Contact</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Search
                     </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a href="../pages/support.html " class="dropdown-item" href="#">Support</a></li>
+                                <li><a class="dropdown-item" href="../pages/support.html " id="navlink5">Support</a></li>
                             </ul>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
+
+        <div class=" title ">
+            <h1 class="h1Title ">We wanted to be known as</h1>
+            <div class="animate__animated1 animate__backInRight ">
+                <img class="imgLogo " src="../images/supremelogo.png " alt="brand photo ">
+            </div>
+        </div>
     </header>
 
     <!-- PRODUCT -->
     <main>
-        <h1 class="h1Product">Product</h1>
+        <h1 class="h1Product ">Product</h1>
         <section>
-            <div class="infoContProd">
-                <img class="imgProduct" src="../images/supremeproduct.png" alt="Supreme Store">
+            <div class="infoContProd ">
+                <img class="imgProduct " src="../images/supremeproduct.png " alt="Supreme Store ">
                 <hr>
             </div>
 
             <h3>Why choose our brand?</h3>
-            <!-- <div class="carousel-two"> -->
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-                <div class="carousel-two">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="imgCarousel" src="../images/supremeplant.jpeg" class="d-block w-100" alt="supreme plant">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5 class="eco-title">Eco Friendly</h5>
-                                <div class="eco-section">
-                                    <p class="pwhite">Since the industrial revolution, the way that we produce clothing has been damaging our ecosystem — and contributing up to a third of global carbon emissions.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img class="imgCarousel" src="../images/supremepink.jpeg" class="d-block w-100" alt="supreme pink">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5 class="eco-title">Solution</h5>
-                                <div class="eco-section">
-                                    <p class="pwhite">Together we can start supporting farmers wanting to make the switch to regenerative cotton farming, capture carbon from our atmosphere — and move towards a better way of doing things.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img class="imgCarousel" src="../images/supremebag.jpeg" class="d-block w-100" alt="supreme bag">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5 class="eco-title">Our Goal</h5>
-                                <div class="eco-section">
-                                    <p class="pwhite">Convert 30,000m² of land from conventional cotton farming into regenerative cotton farming.</p>
-                                </div>
-                            </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="imgCarousel " src="../images/supremeplant.jpeg " class="d-block w-100 " alt="supreme plant ">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="eco-title ">Eco Friendly</h5>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
+                    <div class="carousel-item">
+                        <img class="imgCarousel " src="../images/supremepink.jpeg " class="d-block w-100 " alt="supreme pink ">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="eco-title ">Solution</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="imgCarousel " src="../images/supremebag.jpeg " class="d-block w-100 " alt="supreme bag ">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="eco-title ">Our Goal</h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="container-card">
+                <div class="card text-dark bg-light mb-3" style="max-width: 38rem;">
+                    <div class="card-header">
+                        <h6 class="card-title text-center">Eco Friendly</h6>
+                    </div>
+                    <div class="card-body">
+                        <p class="pwhite ">Since the industrial revolution, the way that we produce clothing has been damaging our ecosystem — and contributing up to a third of global carbon emissions.</p>
+                    </div>
+                </div>
+                <div class="card text-dark bg-light mb-3" style="max-width: 38rem;">
+                    <div class="card-header">
+                        <h6 class="card-title text-center">Our Goal</h6>
+                    </div>
+                    <div class="card-body">
+                        <p class="pwhite ">Convert 30,000m² of land from conventional cotton farming into regenerative cotton farming. </p>
+                    </div>
+                </div>
+                <div class="card text-dark bg-light mb-3" style="max-width: 38rem;">
+                    <div class="card-header">
+                        <h6 class="card-title text-center">Solution</h6>
+                    </div>
+                    <div class="card-body">
+                        <p class="pwhite ">Together we can start supporting farmers wanting to make the switch to regenerative cotton farming, capture carbon from our atmosphere — and move towards a better way of doing things.</p>
+                    </div>
                 </div>
             </div>
-            <!-- </div> -->
-
         </section>
     </main>
 
 
     <!-- FOOTER -->
-    <div class="hovicon effect-1 sub-a">
-        <footer class="footerClass">
-            <ul class="footerUl">
+    <div class="hovicon effect-1 sub-a ">
+        <footer class="footerClass ">
+            <ul class="footerUl ">
                 <li>
-                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.instagram.com " target="_blank "><i class="fab fa-instagram "></i></a>
                 </li>
                 <li>
-                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.twitter.com " target="_blank "><i class="fab fa-twitter "></i></a>
                 </li>
                 <li>
-                    <a href="https://www.facebook.com " target="_blank "><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.facebook.com " target="_blank "><i class="fab fa-facebook "></i></a>
                 </li>
             </ul>
         </footer>
@@ -152,21 +171,72 @@
     <br>
     <br>
     <br>
-    <h4 class="copyrights">More ways to shop: Find an Supreme store or other retailer near you. Or call 1-800-SU-PREME.</h4>
+    <h4 class="copyrights ">More ways to shop: Find an Supreme store or other retailer near you. Or call 1-800-SU-PREME.</h4>
     <hr>
-    <h4 class="copyrights">United States Copyright © 2021 Supreme Inc. All rights reserved.
-        <a class="copyright-link" href="#">Privacy</a>
-        <a class="copyright-link" href="#">Policy</a>
-        <a class="copyright-link" href="#">Terms of Use</a>
-        <a class="copyright-link" href="#">Sales and Refunds</a>
-        <a class="copyright-link" href="#">Legal</a>
-        <a class="copyright-link" href="#">Site Map</a>
+    <h4 class="copyrights ">United States Copyright © 2021 Supreme Inc. All rights reserved.
+        <a class="copyright-link " href="# ">Privacy</a>
+        <a class="copyright-link " href="# ">Policy</a>
+        <a class="copyright-link " href="# ">Terms of Use</a>
+        <a class="copyright-link " href="# ">Sales and Refunds</a>
+        <a class="copyright-link " href="# ">Legal</a>
+        <a class="copyright-link " href="# ">Site Map</a>
     </h4>
 
     <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js " integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj " crossorigin="anonymous "></script>
 </body>
 
 
 
 </html>
+
+
+
+
+
+<!--  <div id="carouselExampleCaptions " class="carousel slide " data-bs-ride="carousel ">
+                <div class="carousel-indicators ">
+                    <button type="button " data-bs-target="#carouselExampleCaptions " data-bs-slide-to="0 " class="active " aria-current="true " aria-label="Slide 1 "></button>
+                    <button type="button " data-bs-target="#carouselExampleCaptions " data-bs-slide-to="1 " aria-label="Slide 2 "></button>
+                    <button type="button " data-bs-target="#carouselExampleCaptions " data-bs-slide-to="2 " aria-label="Slide 3 "></button>
+                </div>
+                <div class="carousel-two ">
+                    <div class="carousel-inner ">
+                        <div class="carousel-item active ">
+                            <img class="imgCarousel " src="../images/supremeplant.jpeg " class="d-block w-100 " alt="supreme plant ">
+                            <div class="carousel-caption d-none d-md-block ">
+                                <h5 class="eco-title ">Eco Friendly</h5>
+                                <div class="eco-section ">
+                                    <p class="pwhite ">Since the industrial revolution, the way that we produce clothing has been damaging our ecosystem — and contributing up to a third of global carbon emissions.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <img class="imgCarousel " src="../images/supremepink.jpeg " class="d-block w-100 " alt="supreme pink ">
+                            <div class="carousel-caption d-none d-md-block ">
+                                <h5 class="eco-title ">Solution</h5>
+                                <div class="eco-section ">
+                                    <p class="pwhite ">Together we can start supporting farmers wanting to make the switch to regenerative cotton farming, capture carbon from our atmosphere — and move towards a better way of doing things.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <img class="imgCarousel " src="../images/supremebag.jpeg " class="d-block w-100 " alt="supreme bag ">
+                            <div class="carousel-caption d-none d-md-block ">
+                                <h5 class="eco-title ">Our Goal</h5>
+                                <div class="eco-section ">
+                                    <p class="pwhite ">Convert 30,000m² of land from conventional cotton farming into regenerative cotton farming.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev " type="button " data-bs-target="#carouselExampleCaptions " data-bs-slide="prev ">
+                      <span class="carousel-control-prev-icon " aria-hidden="true "></span>
+                      <span class="visually-hidden ">Previous</span>
+                    </button>
+                    <button class="carousel-control-next " type="button " data-bs-target="#carouselExampleCaptions " data-bs-slide="next ">
+                      <span class="carousel-control-next-icon " aria-hidden="true "></span>
+                      <span class="visually-hidden ">Next</span>
+                    </button>
+                </div>
+            </div> -->

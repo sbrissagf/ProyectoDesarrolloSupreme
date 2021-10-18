@@ -17,7 +17,6 @@ h3 {
     text-align: center;
     width: 100vw;
     margin-bottom: 0.8em;
-    margin-top: 2em;
 }
 
 .h1Contact {
@@ -79,6 +78,38 @@ h5 {
     text-align: center;
 }
 
+.support-text {
+    font-size: 1.6em;
+    color: white;
+    padding: 2em;
+    top: 10em;
+    width: 100vw;
+}
+
+.support-text-title {
+    font-size: 2.5em;
+    color: white;
+    left: 5%;
+    bottom: -55%;
+    top: 195%;
+    color: black;
+}
+
+.support-link {
+    color: white;
+}
+
+.support-link:hover {
+    color: #ed1c24;
+}
+
 .eco-title {
     margin-top: 5em;
+}
+
+.eco-section {
+    margin-top: -0.5em;
+    background-color: black;
+    margin-left: 7em;
+    margin-right: 7em;
 }

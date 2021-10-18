@@ -33,76 +33,81 @@
 
 </head>
 
-<!-- BARRA DE NAVEGACIÓN -->
+<!-- BARRA DE NAVEGACIÓN & BANNER -->
 
 <body>
-    <header>
+    <header class="header" id="banner">
         <nav class="navbar navbar-expand-lg navbar-light bg-light" id="dinamicnav">
             <div class="container-fluid">
-                <a href="../index.html " class="navbar-brand" href="#"><img src="../images/supremelogo.png " alt="" width="80" height="25" class="d-inline-block align-text-top"></a>
+                <a class="navbar-brand" href="../index.html "><img src="../images/supremelogo.png " alt="" width="80" height="25" class="d-inline-block align-text-top"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="../pages/product.html " class="nav-link" href="#">Product</a>
+                            <a class="nav-link" href="../pages/product.html " id="navlink1">Product</a>
                         </li>
                         <li class="nav-item">
-                            <a href="../pages/hype.html " class="nav-link" href="#">Hype</a>
+                            <a class="nav-link" href="../pages/hype.html " id="navlink2">Hype</a>
                         </li>
                         <li class="nav-item">
-                            <a href="../pages/about.html " class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="../pages/about.html " id="navlink3">About</a>
                         </li>
                         <li class="nav-item">
-                            <a href="../pages/contact.html " class="nav-link active" aria-current="page" href="#">Contact</a>
+                            <a class="nav-link active" aria-current="page" href="../pages/contact.html " id="navlink4">Contact</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Search
                     </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a href="../pages/support.html " class="dropdown-item" href="#">Support</a></li>
+                                <li><a class="dropdown-item" href="../pages/support.html " id="navlink5">Support</a></li>
                             </ul>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-
+        <div class="title ">
+            <h1 class="h1Title ">We wanted to be known as</h1>
+            <div class="animate__animated1 animate__backInRight ">
+                <img class="imgLogo " src="../images/supremelogo.png " alt="brand photo">
+            </div>
+        </div>
     </header>
+
     <!-- CONTACT / FORM -->
 
     <main>
 
         <h1 class="h1Contact">Contact</h1>
-        <div class="divForm">
-            <form>
-                <fieldset>
-                    <form class="row g-3">
-                        <div class="form1">
-                            <div class="col-md-4">
-                                <label for="validationDefault01" class="form-label">First name</label>
-                                <input type="text" class="form-control" id="validationDefault01" placeholder="Mark" required>
+        <form>
+            <fieldset>
+                <form class="row g-3">
+                    <div class="form1">
+                        <div class="col-md-4">
+                            <label for="validationDefault01" class="form-label">First name</label>
+                            <input type="text" class="form-control" id="validationDefault01" placeholder="Mark" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="validationDefault02" class="form-label">Last name</label>
+                            <input type="text" class="form-control" id="validationDefault02" placeholder="Otto" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="validationDefaultUsername" class="form-label">Username</label>
+                            <div class="input-group">
+                                <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                                <input type="text" class="form-control" id="validationDefaultUsername" placeholder="mark.otto94" aria-describedby="inputGroupPrepend2" required>
                             </div>
-                            <div class="col-md-4">
-                                <label for="validationDefault02" class="form-label">Last name</label>
-                                <input type="text" class="form-control" id="validationDefault02" placeholder="Otto" required>
-                            </div>
-                            <div class="col-md-4">
-                                <label for="validationDefaultUsername" class="form-label">Username</label>
-                                <div class="input-group">
-                                    <span class="input-group-text" id="inputGroupPrepend2">@</span>
-                                    <input type="text" class="form-control" id="validationDefaultUsername" placeholder="mark.otto94" aria-describedby="inputGroupPrepend2" required>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <label for="validationDefault03" class="form-label">City</label>
-                                <input type="text" class="form-control" id="validationDefault03" required>
-                            </div>
-                            <div class="col-md-3">
-                                <label for="validationDefault04" class="form-label">State</label>
-                                <select class="form-select" id="validationDefault04" required>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="validationDefault03" class="form-label">City</label>
+                            <input type="text" class="form-control" id="validationDefault03" required>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="validationDefault04" class="form-label">State</label>
+                            <select class="form-select" id="validationDefault04" required>
                         <option selected disabled value="">Choose...</option>
                         <option>Alabama, AL</option>
                         <option>Alaska, AK</option>
@@ -155,31 +160,30 @@
                         <option>Wisconsin, WI</option>
                         <option>Wyoming, WY</option>                     
                       </select>
-                            </div>
-                            <div class="col-md-3">
-                                <label for="validationDefault05" class="form-label">Zip</label>
-                                <input type="text" class="form-control" id="validationDefault05" required>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                                    <label class="form-check-label" for="invalidCheck2">
+                        </div>
+                        <div class="col-md-3">
+                            <label for="validationDefault05" class="form-label">Zip</label>
+                            <input type="text" class="form-control" id="validationDefault05" required>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                                <label class="form-check-label" for="invalidCheck2" id="id-label">
                           Agree to terms and conditions
                         </label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary" type="submit">Submit form</button>
                             </div>
                         </div>
-                    </form>
-                </fieldset>
-            </form>
-        </div>
+                        <div class="col-12">
+                            <button class="btn btn-primary" type="submit" id="idbtn">Submit form</button>
+                        </div>
+                    </div>
+                </form>
+            </fieldset>
+        </form>
 
         <!-- MAPS -->
 
-        <h3>Found our Stores on Maps</h3>
+        <h3>Found our Principal Stores on Maps</h3>
         <div class="locationNy">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193547.4443686241!2d-74.03498553282878!3d40.7140798470431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598e814fa0db%3A0xb62b095e1c5b2d92!2sSupreme!5e0!3m2!1sen!2sar!4v1633497296471!5m2!1sen!2sar"
                 width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
