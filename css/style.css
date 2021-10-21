@@ -79,7 +79,7 @@ i {
 }
 
 .imgstore {
-  height: 15em;
+  height: 18em;
 }
 
 .imgProduct {
@@ -133,42 +133,6 @@ i {
   flex-direction: column;
 }
 
-/*Escritorio*/
-@media (min-width: 1200px) {
-  .videodiv {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-}
-/*Landscape*/
-@media (min-width: 992px) and (max-width: 1200px) and (orientation: landscape) {
-  .videodiv {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-}
-/*Tablet*/
-@media (min-width: 600px) and (max-width: 992px) {
-  .videodiv {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-}
-/*Móvil*/
-@media (min-width: 576px) and (max-width: 600px) and (orientation: portrait) {
-  .videodiv {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-}
 .textDiv {
   display: flex;
   width: 100vw;
@@ -222,6 +186,7 @@ p {
   border: 1px solid black;
   text-align: center;
   font-size: 1.1em;
+  width: 100vw;
 }
 
 .textSupportDiv {
@@ -369,16 +334,14 @@ h5 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
+  width: 100vw;
 }
 
 .videodiv {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   width: 100vw;
-  margin-top: 7em;
-  margin-bottom: 7em;
 }
 
 form {
@@ -484,6 +447,7 @@ option {
 .card {
   background-image: linear-gradient(313deg, #646569 0%, #646569 23%, #0d0c0c 100%);
   color: white;
+  width: 100vw;
 }
 
 .btn {
@@ -520,9 +484,8 @@ option {
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  justify-content: space-around;
-  align-items: center;
+  grid-template-columns: auto;
+  justify-content: center;
   width: 100vw;
 }
 
@@ -532,13 +495,6 @@ option {
 
 #card-text-text {
   font-size: 1.1em;
-}
-
-#card-group-one,
-#card-group-two,
-#card-group-three,
-#card-group-four {
-  margin-bottom: 3em;
 }
 
 .container-card {

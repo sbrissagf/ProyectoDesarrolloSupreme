@@ -1,6 +1,7 @@
         .card {
             background-image: linear-gradient(313deg, #646569 0%, #646569 23%, #0d0c0c 100%);
             color: white;
+            width: 100vw;
         }
         
         .btn {
@@ -37,9 +38,8 @@
         
         .grid-container {
             display: grid;
-            grid-template-columns: auto auto auto auto;
-            justify-content: space-around;
-            align-items: center;
+            grid-template-columns: auto;
+            justify-content: center;
             width: 100vw;
         }
         
@@ -49,13 +49,6 @@
         
         #card-text-text {
             font-size: 1.1em;
-        }
-        
-        #card-group-one,
-        #card-group-two,
-        #card-group-three,
-        #card-group-four {
-            margin-bottom: 3em;
         }
         
         .container-card {
