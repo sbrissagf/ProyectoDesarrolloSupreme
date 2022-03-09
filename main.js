@@ -47,6 +47,7 @@ for (let producto of arrayProductos) {
     document.write("Cantidad: " + producto.cantidad);
     document.write("Precio: " + producto.precio);
     document.write("Precio con IVA: " + producto.sumarIva());
+
     console.log(producto.nombre);
     console.log(producto.detalle);
     console.log(producto.cantidad);
